@@ -1,5 +1,9 @@
 # ProductCard — Тестовое задание
 
+## Деплой на GitHub Pages
+
+[https://alexder24.github.io/product-card/](https://alexder24.github.io/product-card/)
+
 ## Описание
 
 Реализация компонента **ProductCard** на React + TypeScript по техническому заданию:

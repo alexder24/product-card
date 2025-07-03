@@ -27,4 +27,4 @@ export const ProductCard: React.FC<ProductCardProps> = ({ title, origin, price, 
       </div>
     </div>
   );
-}; 
+};

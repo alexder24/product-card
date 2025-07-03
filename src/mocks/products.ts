@@ -1,8 +1,10 @@
-export enum Currency {
-  RUB = 'RUB',
-  USD = 'USD',
-  EUR = 'EUR',
-}
+export const Currency = {
+  RUB: 'RUB',
+  USD: 'USD',
+  EUR: 'EUR',
+} as const;
+
+export type Currency = keyof typeof Currency;
 
 export type Product = {
   id: string;
